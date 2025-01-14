@@ -1,0 +1,9 @@
+
+
+on:
+# Trigger the action manually from the UI
+  workflow_dispatch:
+# Trigger the action when pushing to certain branches
+  push:
+    branches:
+    - 'main'
